@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+    background: #5CBAFF;
+}
+
+.container{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+nav{
+	text-align: center;
+}
+nav ul{
+   
+}
+nav ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+nav ul li a{
+   color: #fffffff2;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 4px;
+   display: block;
+   font-size: 14px;
+}
+nav ul li a img{
+	width: 60px;
+}
+
+
+
+/* Form Section */
+.form-section{
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.left{
+	background: #5CBAFF;
+	max-width: 40%;
+	flex: 0 0 40%;
+}
+
+.left img{
+    max-width: 100%;
+    margin-top: 160px;
+    padding-right: 25px;
+}
+
+.right{
+	max-width: 60%;
+	background: #0093FF;
+	flex: 0 0 60%;
+	padding: 65px 250px;
+	color: #fff;
+}
+
+h1{
+	font-weight: bold;
+	max-width: 400px;
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+p{
+    max-width: 400px;
+    font-size: 15px;
+    padding: 10px 0px 20px 0;
+}
+b{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+form{
+}
+form input{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+form p{
+	display: inline;
+	font-size: 14px;
+}
+form a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 3px;
+}
+
+input[type="Register"]{
+	width: 102px;
+	text-transform: uppercase;
+	color: #0093FF;
+}
+
+.flex{
+	margin: 25px 0;
+}
